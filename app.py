@@ -1,4 +1,4 @@
-# FFtools.pro jwt generator
+# sakib29z jwt generator
 # dont change credit
 
 from jwt_info_gen import app, generate_jwt_with_info
