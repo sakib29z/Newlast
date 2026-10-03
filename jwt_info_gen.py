@@ -353,7 +353,7 @@ def generate_jwt_with_info(uid: str, password: str):
 
     return {
         "status": "success",
-        "credit": "fftools.pro",
+        "credit": "sakib29z",
         "uid": str(uid),
         "account_id": str(real_uid) if real_uid else str(uid),
         "real_uid": str(real_uid) if real_uid else str(uid),
@@ -380,7 +380,7 @@ def index():
     return jsonify({
         "status": "online",
         "version": RELEASEVERSION,
-        "credit": "fftools.pro",
+        "credit": "sakib29z",
         "endpoint": "/token?uid=UID&password=PASS"
     }), 200
 
